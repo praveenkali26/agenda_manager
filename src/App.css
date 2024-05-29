@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* app.js styles */
+.mainContainer {
+  max-width: 90%;
+  margin: 0 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mainBtn {
+  background-color: #1697a0;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 0.2rem;
+  border: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.displayAgenda {
+  max-width: 90%;
+  margin: 0 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prevAgenda {
+  margin: 1rem 0;
+  border: 0.1rem solid #e0e0e0;
+  border-radius: 0.2rem;
+}
+.headerFooter {
+  border: 0.1rem solid #e0e0e0;
+  margin: -0.1rem;
+  padding: 10px 10px;
+  background-color: #bbddd14f;
+  font-size: 15px;
+  border-radius: 0.2rem;
+}
+.listView {
+  max-width: 97%;
+  margin: 1.5% 1.5%;
+  border: 0.1rem solid #e0e0e0;
+  font-size: 15px;
+}
+.topicP {
+  border: 0.1rem solid #e0e0e0;
+  margin: -0.1rem;
+  padding: 10px;
+}
+input:focus {
+  outline: none;
+  border-color: rgba(81, 203, 238, 1);
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+/* Form styling*/
+input {
+  width: 100%;
+  padding: 10px;
+  border: 0.1rem solid #c1c1c1a1;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.form-input {
+  margin: 15px 0;
+}
+.form-btn {
+  padding: 10px 20px;
+  float: right;
+}
+button:disabled {
+  background-color: #1e8f1a7c;
+}
+.btn-Style {
+  color: #ffffff;
+  border: none;
+  background-color: #1d8f1a;
+  padding: 10px;
+  border-radius: 4px;
+}
+.form-list {
+  margin-right: -20px;
+}
+/*Error message style*/
+.errorMessage {
+  font-size: 13px;
+  color: red;
 }
