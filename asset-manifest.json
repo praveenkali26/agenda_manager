@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/agenda_manager/static/css/main.b43844d4.css",
-    "main.js": "/agenda_manager/static/js/main.9a89a578.js",
+    "main.js": "/agenda_manager/static/js/main.ad776470.js",
     "index.html": "/agenda_manager/index.html",
     "main.b43844d4.css.map": "/agenda_manager/static/css/main.b43844d4.css.map",
-    "main.9a89a578.js.map": "/agenda_manager/static/js/main.9a89a578.js.map"
+    "main.ad776470.js.map": "/agenda_manager/static/js/main.ad776470.js.map"
   },
   "entrypoints": [
     "static/css/main.b43844d4.css",
-    "static/js/main.9a89a578.js"
+    "static/js/main.ad776470.js"
   ]
 }
