@@ -55,14 +55,12 @@ const useForm = (updated) => {
   useEffect(() => {
     let viewList = [
       {
-        title: 'Angular',
-        description: 'Some description about the angular',
+        title: 'Title',
+        description: 'Description',
         topics: [
-          'Introduction',
-          'Typescript',
-          'why Angular',
-          'Understanding Versions',
-          'Fundamentals',
+          'Topic1',
+          'Topic2',
+          'Topic3'
         ],
       },
     ];
